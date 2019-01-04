@@ -23,7 +23,7 @@ public class CharacterClassifier {
             System.out.print("Enter any character:");
             char    c = scan.next().charAt(0);
             int  ascii = (int)c;
-            /*if-else loop compares the value with asci and determines the type of the character*/
+            /*if-else loop compares the value with ascii and determines the type of the character*/
             if(ascii >=65 && ascii<=90) {
                 System.out.print("CAPITAL LETTER\n");
             }
